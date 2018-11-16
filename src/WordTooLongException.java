@@ -1,0 +1,2 @@
+class WordTooLongException extends Exception {
+}
