@@ -4194,7 +4194,6 @@ breakthrough
 breakup
 breakwater
 bream
-breast
 breastbone
 breast-fed
 breast-feed
@@ -6415,7 +6414,6 @@ cockney
 cockpit
 cockroach
 cockscomb
-cocksucker
 cocksure
 cocktail
 cocky
@@ -26170,7 +26168,6 @@ penicillin
 penile
 peninsula
 peninsular
-penis
 penitence
 penitent
 penitential

@@ -41,10 +41,11 @@ public class WordGuesser {
         }
     }
     public boolean guessLetter(char letter){
-        boolean correct_guess = this.word.contains(Character.toString(letter));
+        String letterLower = Character.toString(letter).toLowerCase();
+        boolean correct_guess = this.word.contains(letterLower);
         if (correct_guess){
 
-            updateArray(letter);
+            updateArray(letterLower.toCharArray()[0]);
         }
 
         return correct_guess;
@@ -52,6 +53,14 @@ public class WordGuesser {
 
     public ArrayList<Character> getWordArray() {
         return wordArray;
+    }
+    public String getStringResult(){
+        String s = "";
+        for (Character c : this.getWordArray()){
+            s += c;
+            s+= " ";
+        }
+        return s;
     }
     public boolean is_finished(){
         return !wordArray.contains('_');
